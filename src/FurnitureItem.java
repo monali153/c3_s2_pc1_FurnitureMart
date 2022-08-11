@@ -17,6 +17,12 @@ public class FurnitureItem {
         price = 2000;
     }
 
+    public double calculateDiscount(double discount) {
+        
+        return price - (price * discount) / 100;
+
+    }
+
 
 }
 
