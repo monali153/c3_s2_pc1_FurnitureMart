@@ -15,6 +15,7 @@ public class FurnitureItemImpl {
         object.gradeOfFurniture = "grade 1";
         object.price = 2000;
 
+        //print details
         System.out.println("Furniture Code =" + object.furnitureCode);
         System.out.println("Furniture Usage =" + object.furnitureUsage);
         System.out.println("Furniture Type =" + object.furnitureType);
