@@ -2,7 +2,7 @@ public class FurnitureItem {
 
     int furnitureCode;
     String furnitureType;
-    int gradeOfFurniture;
+    String gradeOfFurniture;
     String color;
     String furnitureUsage;
     double price;
@@ -11,7 +11,7 @@ public class FurnitureItem {
 
         furnitureCode = 0;
         furnitureType = null;
-        gradeOfFurniture = 0;
+        gradeOfFurniture = null;
         color = null;
         furnitureUsage = null;
         price = 0;

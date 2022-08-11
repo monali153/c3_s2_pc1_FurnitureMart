@@ -15,11 +15,12 @@ public class FurnitureItemImpl {
         System.out.println("Which color do you want in furniture?");
         object.color = scanner.nextLine();
         System.out.println("Enter grade");
-        object.gradeOfFurniture = scanner.nextInt();
-        scanner.nextLine();
+        object.gradeOfFurniture = scanner.nextLine();
+       
 
         object.furnitureCode = 1234;
-        object.price = 2000;
+        System.out.println("Enter price");
+        object.price = scanner.nextDouble();
 
         if (object.furnitureUsage.equals("outdoor")) {
             System.out.println("Discount on outdoor furniture = " + object.calculateDiscount(5));
