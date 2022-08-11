@@ -9,16 +9,16 @@ public class FurnitureItem {
 
     FurnitureItem() {
 
-        furnitureCode = 1234;
-        furnitureType = "Tables";
-        gradeOfFurniture = "grade 1";
-        color = "Red";
-        furnitureUsage = "outdoor";
-        price = 2000;
+        furnitureCode = 0;
+        furnitureType = null;
+        gradeOfFurniture = null;
+        color = null;
+        furnitureUsage = null;
+        price = 0;
     }
 
     public double calculateDiscount(double discount) {
-        
+
         return price - (price * discount) / 100;
 
     }
