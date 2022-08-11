@@ -1,14 +1,10 @@
-"C:\Program Files\Java\jdk-18.0.1.1\bin\java.exe" "-javaagent:C:\Users\Lalit Chaudhari\AppData\Local\JetBrains\Toolbox\apps\IDEA-C\ch-0\221.6008.13\lib\idea_rt.jar=63028:C:\Users\Lalit Chaudhari\AppData\Local\JetBrains\Toolbox\apps\IDEA-C\ch-0\221.6008.13\bin" -Dfile.encoding=UTF-8 -classpath "C:\Users\Lalit Chaudhari\OneDrive\Desktop\NIIT\Course3\Sprint2\c3_s2_pc1_FurnitureMart\out\production\c3_s2_pc1_FurnitureMart" FurnitureItemImpl
-Which type Of furniture usage you want ?
-outdoor
-Enter type of furniture you want
-table
-Which color do you want in furniture?
-red
-Enter grade
-grade1
-Enter price
-3000
-Discount on outdoor furniture = 2850.0
+"C:\Program Files\Java\jdk-18.0.1.1\bin\java.exe" "-javaagent:C:\Users\Lalit Chaudhari\AppData\Local\JetBrains\Toolbox\apps\IDEA-C\ch-0\221.6008.13\lib\idea_rt.jar=64151:C:\Users\Lalit Chaudhari\AppData\Local\JetBrains\Toolbox\apps\IDEA-C\ch-0\221.6008.13\bin" -Dfile.encoding=UTF-8 -classpath "C:\Users\Lalit Chaudhari\OneDrive\Desktop\NIIT\Course3\Sprint2\c3_s2_pc1_FurnitureMart\out\production\c3_s2_pc1_FurnitureMart" FurnitureItemImpl
+Furniture Code =0
+Furniture Usage =outdoor
+Furniture Type =table
+Color =Red
+Grade =grade 1
+Price =2000.0
+Discount on outdoor furniture = 1900.0
 
 Process finished with exit code 0

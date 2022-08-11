@@ -8,19 +8,19 @@ public class FurnitureItemImpl {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Which type Of furniture usage you want ?");
-        object.furnitureUsage = scanner.nextLine();
-        System.out.println("Enter type of furniture you want");
-        object.furnitureType = scanner.nextLine();
-        System.out.println("Which color do you want in furniture?");
-        object.color = scanner.nextLine();
-        System.out.println("Enter grade");
-        object.gradeOfFurniture = scanner.nextLine();
-       
+        object.furnitureCode = 0;
+        object.furnitureUsage = "outdoor";
+        object.furnitureType = "table";
+        object.color = "Red";
+        object.gradeOfFurniture = "grade 1";
+        object.price = 2000;
 
-        object.furnitureCode = 1234;
-        System.out.println("Enter price");
-        object.price = scanner.nextDouble();
+        System.out.println("Furniture Code =" + object.furnitureCode);
+        System.out.println("Furniture Usage =" + object.furnitureUsage);
+        System.out.println("Furniture Type =" + object.furnitureType);
+        System.out.println("Color =" + object.color);
+        System.out.println("Grade =" + object.gradeOfFurniture);
+        System.out.println("Price =" + object.price);
 
         if (object.furnitureUsage.equals("outdoor")) {
             System.out.println("Discount on outdoor furniture = " + object.calculateDiscount(5));
